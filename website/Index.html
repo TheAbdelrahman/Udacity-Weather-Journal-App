@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,0,0" />
+    <link rel="icon" type="image/x-icon" href="/weather-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Journal</title>
+</head>
+<body>
+    <main>
+    <div id="app">
+        <h1>Weather Journal App</h1>
+        <div class="container zipcode">
+            <label for="zip">Zipcode : </label>
+            <input type="text" id="zip" placeholder="Enter zipcode here">
+        </div>
+        <div class="container feeling">
+            <label for="feelings">How are you feeling today?</label>
+            <textarea type="text" id="feelings" placeholder="Enter your feeling here" rows="1"></textarea>
+            <button type="submit" id="generate">Generate</button>
+        </div>
+            <h4 class="hidden">Most recent:</h4>
+            <div id="entryHolder">
+                <div id="city"></div>
+                <div id="temp"></div>
+                <div id="feels_like"></div>
+                <div id="date"></div>
+                <div id="content"></div>
+            </div>
+        </div>
+    </div>
+</main>
+<div id="back-credit">Background by:Alexander Bychkov photography</div>
+
+<script src="app.js"></script>
+</body>
+</html>
