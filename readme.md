@@ -8,12 +8,12 @@ An asynchronous web app that uses Web API and user data to dynamically update th
 ## **Table of contents**
 - [`How to run the project`](#how-to-run-the-project)
 - [`Technologies used`](#technologies-used)
-- [`Credits`](#credits)
-- [`Resources`](#resources)
-- [Files](#files)
-- [Dependencies](#dependencies)
-- [Middle-ware](#middle-ware)
-- [Output](#output)
+- [`Credits`](#Credits)
+- [`Resources`](#Resources)
+- [Files](#Files)
+- [Dependencies](#Dependencies)
+- [Middle-ware](#Middle-ware)
+- [Output](#Output)
 
 
 ## **How to run the project :**
